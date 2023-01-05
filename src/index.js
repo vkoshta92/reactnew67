@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom/client';
 // import Homecoreui from './coreUI/Homecoreui';
 // import Reactbootstraphome from './reactbootstrapUI/Reactbootstraphome'
 // import Contact from './coreUI/Contact';
-import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import { BrowserRouter as Abc,Route,Routes } from 'react-router-dom';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 
@@ -27,7 +27,7 @@ root.render(
 <Materialuihome/>
 <Contact/> */}
 
-<BrowserRouter>
+<Abc>
 <Routes>
 <Route path='' element={<Login/>}/>
 <Route path='dashboard' element={<Dashboard/>}/>
@@ -37,7 +37,7 @@ root.render(
 
 
 
-</BrowserRouter>
+</Abc>
 
   </React.StrictMode>
 );
