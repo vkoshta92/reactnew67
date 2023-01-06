@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Mynav from './Mynav'
+import { Mychild } from './Childcomponent';
 
 function Dashboard() {
   const a=20
@@ -45,7 +46,7 @@ const[c,b]=useState(0);
 <input type="text" value={intv} onInput={myinput}/>
 <p>{intv}</p>
 <h1>{c}</h1>
-
+<Mychild/>
 
     </div>
   )
