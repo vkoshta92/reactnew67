@@ -12,6 +12,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Mydatalist from './components/Mydatalist';
 import MynewPage from './components/MynewPage';
+import Fetchdata from './components/Fetchdata';
 
 
 
@@ -34,8 +35,9 @@ root.render(
 <Routes>
 <Route path='' element={<Login/>}/>
 {/* <Route path='dashboard' element={<Dashboard/>}/> */}
-<Route path='dashboard' element={<Mydatalist/>}/>
-<Route path='newpage' element={<MynewPage/>}/>
+{/* <Route path='dashboard' element={<Mydatalist/>}/> */}
+{/* <Route path='newpage' element={<MynewPage/>}/> */}
+<Route path='fetch1' element={<Fetchdata/>}></Route>
 </Routes>
 
 
